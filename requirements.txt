@@ -1,3 +1,5 @@
 openai
 ollama
 dotenv
+requests
+bs4
