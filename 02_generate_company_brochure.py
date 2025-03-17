@@ -14,19 +14,6 @@ class Links(BaseModel):
     links: list[Link]
     
 
-def make_ollama_call(messages, model = "llama3.2"):
-    response = ollama.chat(model, messages)
-    return response["message"]["content"]
-
-def make_openai_call(messages, model= "gpt-4o-mini"):
-    openai = OpenAI()
-    response = openai.chat.completions.create(
-        model=model,
-        messages=messages
-    )
-    return response.choices[0].message.content
-
-
 class Website:
     def __init__(self, url):
         try:
@@ -49,10 +36,6 @@ class Website:
         except Exception as e:
             print(e)
             pass
-
-
-    def get_content(self):
-        return f"Webpage with the title {self.title} has the following content:\n {self.text}\n\n"
 
     def get_relevant_links(self):
         system_prompt = '''
