@@ -3,3 +3,4 @@ ollama
 dotenv
 requests
 bs4
+PyPDF2
