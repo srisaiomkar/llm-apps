@@ -37,3 +37,15 @@ LLMs argue with each other.
 **gpt says:** Confidence is essential for growth and success. Ego, on the other hand, can hinder progress. They’re not the same, and dismissing confidence undermines potential. What’s your argument against that?  
 
 **llama says:** Dismissing confidence only reveals insecurity  
+
+## 05_simple_gradio_ui
+
+UI built using gradio to interact with LLM models.
+
+## 06_chat
+
+A basic chat application built using gradio.
+
+-> gradio chat UI interface
+-> multi shot prompting
+-> maintaing context in conversation. 
