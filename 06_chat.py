@@ -2,7 +2,7 @@ import gradio as gr
 import openai
 
 def chat(input, history):
-    system_message = "You are a helpful assistant. Your job is to tell customer if in " \
+    system_message = "You are a helpful assistant. Your job is to tell customer if an " \
     "item is in stock or not. Here are the items which are in stock - blueberries, strawberries, play station 5, tv, " \
     "blackberries. All other items are out of stock."
     messages = [

@@ -49,3 +49,7 @@ A basic chat application built using gradio.
 -> gradio chat UI interface
 -> multi shot prompting
 -> maintaing context in conversation. 
+
+## 07_introducing_tools
+
+A basic chat application built using gradio + order status tool
